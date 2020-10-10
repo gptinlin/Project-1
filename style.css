@@ -1,0 +1,19 @@
+header {
+    background-color: yellow;
+    color: pink;
+    text-align: center;
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+body {
+    background-color: #EFEFEF;
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+section {
+    text-align: center;
+}
