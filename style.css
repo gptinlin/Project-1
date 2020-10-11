@@ -1,4 +1,4 @@
-header {
+ div {
     background-color: yellow;
     color: pink;
     text-align: center;
@@ -6,6 +6,7 @@ header {
 }
 h2 {
     font-size: 25px;
+    padding: 20px 200px;
 }
 body {
     background-color: #EFEFEF;
@@ -16,5 +17,4 @@ footer {
 }
 section {
     text-align: center;
-    padding: 20px 20px;
 }
