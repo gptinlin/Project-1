@@ -1,9 +1,12 @@
  div {
     background-color: yellow;
-    color: pink;
+    color: black;
     text-align: center;
     font-size: 30px;
-}
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+
 h2 {
     font-size: 25px;
     padding: 20px 200px;
