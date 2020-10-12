@@ -5,7 +5,6 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form action="action_page.php" style="border:1px solid #ccc">
             <div class="container">
                 <h1>Schedule a Session</h1>
                 <p><b>Please fill out this form</b></p>
@@ -14,6 +13,7 @@
                     <a href="indexthree.html">Subjects</a>
                 </div>
             </div>
+            <form action="action_page.php" ></form>
                 <br><label for="firstName"><b>First name:</b></label>
                     <input type="text" id="firstName" name="firstName" value="First Name" required="required"></br>
                 <br><label for="lastName"><b>Last name:</b></label>
@@ -36,7 +36,7 @@
                     <option value="eleventh">11th Grade</option>
                     <option value="twelfth">12th Grade</option>
                 </select>
-                <fieldset>
+                <fieldset class="border">
                     <legend>Times</legend>
                     <br><input type="checkbox" id="time1" name="time1" value="Morning">
                     <label for="time1">Mornings</label></br>
