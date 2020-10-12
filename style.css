@@ -50,10 +50,11 @@ img {
 }
 .table {
     text-align: center;
-    float: center;
     color: navy;
     padding:25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: navy;
+    border-width: 2px;
 }
 tr {
     color: navy;
@@ -62,6 +63,7 @@ tr {
 thead {
     color: navy;
     font-size:40px;
+    
 }
 .lead {
     color: navy;
@@ -69,4 +71,7 @@ thead {
 .border {
     border-width: 2px;
     border-color: navy;
+}
+.back {
+    background-color: wheat;
 }
