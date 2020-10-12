@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Subjects</title>
-        <link rel="stylesheet" href="styletwo.css">
+        <title>Sign-up sheet</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <p>Su</p>
+        <form action="action_page.php" style="border:1px solid #ccc">
+            <div class="container">
+              <h1>Schedule a Session</h1>
+              <p><b>Please fill out this form</b></p>
+              <div class="topnav">
+                <a href="index.html">Home</a>
+                <a href="indextwo.html">Subjects</a>
+            </div>
+              <br><label for="firstName"><b>First name:</b></label>
+                <input type="text" id="firstName" name="firstName" value="First Name"></br>
+                <br><label for="lastName"><b>Last name:</b></label>
+                <input type="text" id="lastName" name="lastName" value="Last Name"></br>
+              <br>
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required="required">
+              </br>
+              <br>
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required="required">
+              </br>
+              <br>
+              <label for="psw-repeat"><b>Repeat Password</b></label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required="required">
+              </br>
+              <br>
+              <label for="grade"><b>Grade</b></label>   
+                <select id="grade" name="grade">
+                    <option value="sixth">6th Grade</option>
+                    <option value="seventh">7th Grade</option>
+                    <option value="eigth">8th Grade</option>
+                    <option value="ninth">9th Grade</option>
+                    <option value="tenth">10th Grade</option>
+                    <option value="eleventh">11th Grade</option>
+                    <option value="twelfth">12th Grade</option>
+                </select>
+                <fieldset>
+                    <legend>Times</legend>
+                    <br><input type="checkbox" id="time1" name="time1" value="Morning">
+                    <label for="time1">Mornings</label></br>
+                    <br><input type="checkbox" id="time2" name="time2" value="Afternoon">
+                    <label for="time2">Afternoons</label></br>
+                    <br> <input type="checkbox" id="time3" name="time3" value="Nights">
+                    <label for="time3">Nights</label></br>
+                </fieldset>
+                    <br>
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"><b>Remember Me</b>
+              </label>
+              </br>
+              <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="submitbtn">Submit</button>
+              </div>
+            </div>
+          </form>
 
 
     </body>
