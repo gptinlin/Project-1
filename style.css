@@ -49,6 +49,7 @@ img {
     max-height: 500px;
 }
 .table {
+    background-color: wheat;
     text-align: center;
     color: navy;
     padding:25px;
@@ -67,6 +68,7 @@ thead {
 }
 .lead {
     color: navy;
+    background-color: wheat;
 }
 .border {
     border-width: 2px;
@@ -75,6 +77,11 @@ thead {
 .back {
     background-color: wheat;
 }
+line {
+    border-width: 200px;
+    border-color: navy;
+}
+
 section#carousel > figure > img {
     display: none;
     margin: 0px auto;
