@@ -1,6 +1,6 @@
  div {
-    background-color: yellow;
-    color: black;
+    background-color: rgb(251, 255, 37);
+    color: navy;
     text-align: center;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -20,4 +20,11 @@ footer {
 }
 section {
     text-align: center;
+}
+fieldset {
+    margin:30px;
+}
+img {
+    max-width: 700px;
+    max-height: 500px;
 }
