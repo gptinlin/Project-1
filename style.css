@@ -4,8 +4,11 @@
     text-align: center;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
- }
+    }
+p {
+    color: navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 h1 {
     font-size: 50px;
     padding: 30px;
